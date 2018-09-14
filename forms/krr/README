@@ -1,0 +1,4 @@
+wget www.cdsbytes.com/dhc/keyraceotb.pdf
+
+mv keyraceotb.pdf keyraceotbYYYY-MM-DD.pdf 
+

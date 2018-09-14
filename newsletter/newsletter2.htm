@@ -1,0 +1,623 @@
+
+<style type="text/css">
+<!--
+
+#container { 	
+	padding: 0;
+	margin:0;
+	width: 750px;
+	position: relative;
+	margin:0px auto;
+	text-align:left;
+	background-color:transparent;
+	}
+	
+a:link { 
+	color: #5f7d95; 
+	text-decoration: none;
+	} 
+
+a:visited { 
+	text-decoration: none; 
+	color: #5f7d95;
+	} 
+
+a:hover { 
+	color: #000000;
+	} 
+
+a:active { 
+	color: #669933;
+	}
+	
+body { 
+	align: 0 auto;
+	padding: 0; 
+	margin: 0; 
+	background: #f5f5f5 url(/images/backgrounds/bg_gradient2.png) top repeat-x;
+	font: normal 100% Verdana, Arial, Helvetica, sans-serif;
+	}
+	
+
+h3, .section-header {
+	height: 19px;
+	line-height: 19px;
+	color: white; 
+	font-size: 12px; 
+	font-family: Verdana, Helvetica, sans-serif;
+	font-weight: bold; 
+	display: block;
+	padding: 0px 0 0 5px;
+	margin: 0px;
+	text-transform: uppercase;
+	background-color: #1b415b;
+	border: 1px solid #5a7285;
+	background: url(https://www.offtrackbetting.com/images/backgrounds/header_bg.png) repeat top left;
+	} 
+	
+p {
+	margin: 0 0 1.1em 0; 
+	font-size: 12px 
+}
+
+table {
+	font-size: 12px 
+	}
+	
+.gradedStakes, .gradedStakes table {
+	width: 100%;
+	}
+
+.gradedStakes th {
+	font-weight:bold;
+	text-align:left!important;
+	color:#000;
+	}
+
+.gradedStakes td {
+	width:auto;
+	text-align:left!important;
+	}
+	
+.gradedStakes td > span {
+	color:PURPLE!important;
+	}
+	
+.gradient-container-border {
+	background: none;
+	border: 1px solid #999999;
+	}	
+	
+.gradient-container {
+	background: #ffffff url(https://www.offtrackbetting.com/images/backgrounds/gradient_back.jpg) bottom repeat-x;
+	border: 2px solid white;
+	padding: 5px;
+	
+	}
+
+.gradient-container p {
+	margin-bottom: 7px; 
+	border: 0px;
+	}
+	
+.gradient-container td a {
+	color:#5f7d95!important;
+	}
+
+.gradient-container td a:hover {
+	color:black!important;
+	}
+	
+.spacerhalf { 
+	height: 7px;
+	overflow: hidden;
+	}
+	
+.footer-title {
+	font-weight:bold; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#6a6969
+	}
+	
+.disclaimer	{
+	font-size:0.91em; 
+	color: #5f7d95; 
+	margin:0px; 
+	padding:0px 0 10px 0; 
+	width: 750px;
+	}
+	
+.header {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
+}
+
+#head {
+   padding: 0px; 
+   clear:both;
+   height: 64px;
+   position: relative;
+   width: 100%; 
+   z-index:1;
+}
+
+.allhead{ /*holds in the tagline, main header, navigation and sub nav*/
+	padding: 0px;
+	margin: 0px auto;
+	width: 750px;
+	height: 197px; /* 230px with banner-h, 171px without */
+	}
+	
+.headback { /* logo background */
+	height:98px;
+	width:750px;
+	background: transparent url(https://www.offtrackbetting.com/newsletter/images/template/logo.gif) top repeat-x;
+	color: inherit;
+	border: 1px solid #666666; 
+	margin-bottom: 8px;
+	}
+	
+.mainlogo {
+	width: 400px;
+	float: left;
+	height: 100px;
+	z-index: 2;
+	position: absolute;
+	margin: 0px;
+	padding-bottom: 2px;
+	}
+
+.mainlogo a { 
+	display:block;
+	width:auto;
+	height:100px;
+	}
+	
+.banner-h {
+	background: transparent;
+	height: 52px;
+	padding: 0;
+	z-index:2;
+	margin: 7px 0px 0px 0px;
+	_margin: 7px 0px 0px 0px;
+	clear: both;
+}
+
+div#menunav {
+width:750px;
+position:relative;
+clear: both;
+background:url(https://www.offtrackbetting.com/images/top_nav/bg.png) repeat-x top left;
+height:32px;
+padding-bottom:1px;
+z-index:100;
+border: 1px solid #666666;
+}
+
+#nav {
+background: url(https://www.offtrackbetting.com/images/top_nav/bg.png) no-repeat left top;
+}
+
+#nav, #nav ul {
+display: block;
+padding:0;
+text-align:center;
+margin:0;
+list-style: none;
+height:32px;
+}
+
+#nav a, #nav a:visited {
+display:block;
+text-decoration:none;
+color:#031D3B;
+height:32px;
+font: bold 12px/100% Arial, Helvetica, sans-serif;
+text-transform: uppercase;
+line-height:32px;
+}
+
+#nav a:hover {
+background-color: #031D3B;
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#nav li.nav_right a:hover {
+background-color: #031D3B;
+text-decoration:none;
+color:#FFFFFF;
+}
+
+#nav li.nav_left a:hover {
+background-color: #031D3B;
+color:#FFFFFF;
+}
+
+#nav li.nav_left ul li a:hover {
+background: #031D3B;
+}
+
+#nav ul a, #nav ul a:visited {
+background:#e4e4e4;
+height:auto;
+line-height:1em;
+padding:5px 10px;
+text-align:left;
+}
+
+#nav li ul a, #nav li ul a:visited {
+background:#e4e4e4;
+height:auto;
+line-height:1em;
+padding:5px 10px;
+text-align:left;
+font-size: 11px;
+text-transform: none;
+}
+
+#nav li {
+	float: left;
+	background: url(https://www.offtrackbetting.com/images/top_nav/spacer.png) no-repeat right top;
+	width: 14.28%;
+	position:relative;
+	margin:0px;
+}
+
+#nav li.nav_right {
+		width: 14.28%;
+        float: right;
+        background: url(https://www.offtrackbetting.com/images/top_nav/bg.png) no-repeat right top;
+}
+
+
+#nav li ul a:hover { /* dropdown background color for non-left/right end caps */
+  /* background: #2f4555; */
+  background: #031D3B;
+}
+
+#nav li ul {
+	position: absolute;
+	/*width: 109px;*/
+	left: -999em;
+}
+
+#nav li ul li ul {
+	display: none;
+}
+
+#nav li ul li ul li {
+        width: 150px;
+}
+
+#nav li ul li {
+	text-align:left;
+        width: 150px;
+	background-image: none;
+	border: 1px solid #9db2c7;
+}
+
+
+#nav li:hover ul {
+	left: auto;
+}
+
+#nav li:hover ul, #nav li.sfhover ul {
+	left: 0;
+}
+
+#nav li ul li:hover ul, #nav li ul li.sfhover ul {
+	display: block;
+	top: -1px;
+        left: 150px;
+}
+
+.footer-title {
+	font-weight:bold; 
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+	color:#6a6969
+}
+
+#footer {
+	padding:0px;  
+	background-color:#f5f5f5; 
+	width: 750px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;  
+	text-align: center; 
+	font-size: 12px; 
+	border-top:2px solid #ccc; 
+	padding-top:15px;
+	margin: 0px auto;
+	}
+
+#footer a {
+	color:#7c9997!important;
+	}
+
+#footer a:hover {
+	color:black!important;
+	}
+
+
+-->
+</style>
+
+  <!-- Container Start -->
+   <div id="container" >
+<div id="header"><!-- start header -->
+<div class="allhead" >
+            
+      <!-- start head div-->
+<div id="head">
+
+<!-- start headback-->
+	<div class="headback">
+	
+<!-- start logo-->
+        <div class="mainlogo">
+                     
+        </div>
+<!-- end logo-->
+
+</div>
+<!-- end headback-->
+
+<!-- begin navigation -->
+ 
+<div id="menunav">
+  <ul id="nav">
+    <li class="nav_left"><a href="https://www.offtrackbetting.com/" title="">HOME</a></li>
+
+    <li><a href="https://www.offtrackbetting.com/about.html">ABOUT OTB</a></li>
+
+    <li><a href="https://www.offtrackbetting.com/help.html" title="">HELP</a></li>
+
+    <li><a href="https://www.offtrackbetting.com/rebates.html" title="">REBATES</a></li>
+
+    <li><a href="https://www.offtrackbetting.com/horse-racing-schedule.html" title="">HANDICAPPING</a></li>
+
+    <li><a href="https://www.offtrackbetting.com/horse-racing-terms.html" title="">OTB SCHOOL</a></li>
+
+    <li class="nav_right"><a href="https://www.offtrackbetting.com/cashier/">DEPOSIT</a></li>
+  </ul>
+</div>
+<!-- end navigation -->
+<div class="banner-h">
+   <a href="https://www.offtrackbetting.com/rebates.html" title="Horse Racing Betting Rebates"><img src="https://www.offtrackbetting.com/newsletter/images/template/banner.png" width="750" height="40" border="0" alt="Horse Racing Betting Rebates"></a>
+ </div> 
+</div>
+<!-- end head div-->
+
+<!-- end header -->
+</div>
+                    	
+  <h3><span>Off Track Betting Highlights</span></h3>
+
+						
+	<div class="gradient-container-border">
+	 <div class="gradient-container">
+	  
+	  
+	  <p>Welcome to OffTrackBetting.com! Off Track Betting is an Advance Deposit Wagering (ADW) service providing legal and secure phone and online horse betting on Thoroughbred, Harness and Quarter horse racing. Licensed, based and regulated in the U.S.A., Off Track Betting offers online horse racing betting from Lien Games Racing LLC, a licensed Service Provider by the North Dakota Racing Commission. </p>
+	  
+	<p>  <a href="/off_track_betting_license.html">Click here</a> to view our 2011 Off Track Betting license issued by the North Dakota Gaming Commission.	</p>
+	  
+	  <p>All horse racing wagers placed through Off Track Betting are commingled with partnered host track pari-mutuel pools, and winning wagers are paid at full track odds. Free membership allows horseplayers to bet horse racing online or by telephone, and also entitles all Off Track Betting members to real time audio, video feeds and experienced customer service. OTB offers horse racing betting on over 100 race tracks.</p>
+</div>      
+	 </div>
+     
+     <div class="spacerhalf"></div>  <h3><span>Off Track Betting Highlights</span></h3>
+
+						
+	<div class="gradient-container-border">
+	 <div class="gradient-container">
+	  
+	  
+	  <p>Welcome to OffTrackBetting.com! Off Track Betting is an Advance Deposit Wagering (ADW) service providing legal and secure phone and online horse betting on Thoroughbred, Harness and Quarter horse racing. Licensed, based and regulated in the U.S.A., Off Track Betting offers online horse racing betting from Lien Games Racing LLC, a licensed Service Provider by the North Dakota Racing Commission. </p>
+	  
+	<p>  <a href="/off_track_betting_license.html">Click here</a> to view our 2011 Off Track Betting license issued by the North Dakota Gaming Commission.	</p>
+	  
+	  <p>All horse racing wagers placed through Off Track Betting are commingled with partnered host track pari-mutuel pools, and winning wagers are paid at full track odds. Free membership allows horseplayers to bet horse racing online or by telephone, and also entitles all Off Track Betting members to real time audio, video feeds and experienced customer service. OTB offers horse racing betting on over 100 race tracks.</p>
+</div>
+</div>
+		         
+<div class="spacerhalf"></div>
+ 
+    
+<h3><span>OTB Graded Stakes Races</span></h3>
+
+<div class="gradient-container-border">
+<div class="gradient-container">
+ 
+<div id="gradedStakes" class="gradedStakes">
+<table width="100%">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Race Track</th>
+      <th>Race</th>
+      <th>Grade</th>
+      <th>Purse</th>
+      <th>Age/Sex</th>
+      <th>Distance</th>
+    </tr>
+  </thead>
+  <tbody>
+
+ 
+ <tr>
+    <td>July 2</td>
+    <td>Belmont Park</td>
+    <td>Dwyer Stakes</td>
+    <td> II </td>
+    <td>$150,000</td>
+    <td>3yo </td>
+    <td>9.0 </td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Belmont Park</td>
+    <td>Suburban Handicap</td>
+    <td> II </td>
+    <td>$300,000</td>
+    <td>3up </td>
+    <td>9.0 </td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Churchill Downs</td>
+    <td>Bashford Manor Stakes</td>
+    <td> III </td>
+    <td>$100,000</td>
+    <td>2yo </td>
+    <td>6.0 </td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Hollywood Park</td>
+    <td>Shoemaker Mile</td>
+    <td> I </td>
+    <td>$300,000</td>
+    <td>3up </td>
+    <td>8.0 T</td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Hollywood Park</td>
+    <td>Triple Bend Handicap</td>
+    <td> I </td>
+    <td>$250,000</td>
+    <td>3up </td>
+    <td>7.0 S</td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Monmouth Park</td>
+    <td>Salvator Mile Stakes</td>
+    <td> III </td>
+    <td>$200,000</td>
+    <td>3up </td>
+    <td>8.0 </td>
+  </tr>
+  <tr>
+    <td>July 2</td>
+    <td>Monmouth Park</td>
+    <td>United Nations Stakes</td>
+    <td> I </td>
+    <td>$750,000</td>
+    <td>3up </td>
+    <td>11.0 T</td>
+  </tr>
+  <tr>
+    <td>July 3</td>
+    <td>Arlington Park</td>
+    <td>Chicago Handicap</td>
+    <td> III </td>
+    <td>$100,000</td>
+    <td>3up fm</td>
+    <td>7.0 S</td>
+  </tr>
+  <tr>
+    <td>July 3</td>
+    <td>Belmont Park</td>
+    <td>Bed O'Roses Handicap</td>
+    <td> III </td>
+    <td>$150,000</td>
+    <td>3up fm</td>
+    <td>7.0 </td>
+  </tr>
+  <tr>
+    <td>July 3</td>
+    <td>Belmont Park</td>
+    <td>Matron Stakes</td>
+    <td> II </td>
+    <td>$150,000</td>
+    <td>2yo f</td>
+    <td>6.0 </td>
+  </tr>
+  <tr>
+    <td>July 3</td>
+    <td>Belmont Park</td>
+    <td>Futurity Stakes</td>
+    <td> II </td>
+    <td>$150,000</td>
+    <td>2yo </td>
+    <td>6.0 </td>
+  </tr>
+  <tr>
+    <td>July 3</td>
+    <td>Monmouth Park</td>
+    <td>Jersey Shore Stakes</td>
+    <td> III </td>
+    <td>$150,000</td>
+    <td>3yo </td>
+    <td>6.0 </td>
+  </tr>
+  <tr>
+    <td>July 4</td>
+    <td>Belmont Park</td>
+    <td>Prioress Stakes</td>
+    <td> I </td>
+    <td>$250,000</td>
+    <td>3yo f</td>
+    <td>6.0 </td>
+  </tr>
+  <tr>
+    <td>July 4</td>
+    <td>Churchill Downs</td>
+    <td>Firecracker Handicap</td>
+    <td> II </td>
+    <td>$175,000</td>
+    <td>3up </td>
+    <td>8.0 T</td>
+  </tr>
+  <tr>
+    <td height="17">July 4</td>
+    <td>Hollywood Park</td>
+    <td>Royal Heroine Mile</td>
+    <td> II </td>
+    <td>$150,000</td>
+    <td>3up fm</td>
+    <td>8.0 T</td>
+  </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+
+<div id="footer">
+<!-- start footer -->
+
+<div class="footer-title">Customer Service:</span>
+<a href="https://www.offtrackbetting.com/faq.html">Help</a> | 
+<a href="https://www.offtrackbetting.com/about.html">About</a> | 
+<a href="https://www.offtrackbetting.com/contact.html">Contact Us</a> | 
+<a href="https://www.offtrackbetting.com/privacy.html">Privacy</a> | 
+<a href="https://www.offtrackbetting.com/terms.html">Terms of Service</a></div>
+
+<div class="spacerhalf"></div>
+ 
+          <p>&copy; 2011 OffTrackBetting.com</strong> All Rights Reserved.</p>
+
+<div class="spacerhalf"></div>
+<!--start disclaimer-->
+
+<div class="disclaimer">
+  <div>Horse Racing Data Provided by Equibase</div>
+  <div><img alt="Horse Racing Data Provided by Equibase" src="https://www.offtrackbetting.com/images/eqblogo.jpg" width="125" height="33" /> &nbsp; <img alt="Horse Betting" src="https://www.offtrackbetting.com/images/amtotelogo.gif" width="125" height="33"/> &nbsp;
+  </div>
+  
+  <p>You must be old enough in your jurisdiction to wager on horses. Please play responsibly.</p>
+     </div><div align="center"class="disclaimer">
+                <p>You are receiving this newsletter from OffTrackBetting.com,  because you were signed up when you opened your account with us. If you do not want to receive future mailings from us, please click on the link below to be removed from this mailing list.  Must be 21 years of age to obtain or to use an OffTrackBetting.com account. Account wagering is not permitted in all states.</p>
+
+                <p>OffTrackBetting.com encourages responsible wagering. National Problem Gambling Support Line: 1-800-522-4700. <br>
+              <a href="*|UNSUB|*" style="disclaimer">Please remove me from this list.</a></p>
+      </div>
+</div>
+<!-- end footer --> 
+</div>
