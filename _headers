@@ -1,0 +1,3 @@
+# serve font files from www.offtrackbetting.com
+/fonts/*
+  Access-Control-Allow-Origin: https://www.offtrackbetting.com
