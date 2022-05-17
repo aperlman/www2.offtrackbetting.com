@@ -28,7 +28,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2021-01-08.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.91</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2020-05-30.htm</loc>
@@ -259,6 +259,11 @@
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2013-07-18.htm</loc>
     <changefreq>never</changefreq>
     <priority>0.18</priority>
+  </url>
+  <url>
+    <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2022-05-17.htm</loc>
+    <changefreq>never</changefreq>
+    <priority>0.98</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2018-01-19.htm</loc>
@@ -916,6 +921,11 @@
     <priority>0.91</priority>
   </url>
   <url>
+    <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2022-05-13.htm</loc>
+    <changefreq>never</changefreq>
+    <priority>0.98</priority>
+  </url>
+  <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2015-03-06.htm</loc>
     <changefreq>never</changefreq>
     <priority>0.36</priority>
@@ -1238,7 +1248,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2021-12-02.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.92</priority>
+    <priority>0.91</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2015-07-29.htm</loc>
@@ -1463,7 +1473,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2021-01-15.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.91</priority>
+    <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2021-06-14.htm</loc>
@@ -1733,7 +1743,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2021-12-10.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.92</priority>
+    <priority>0.91</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2016-12-31.htm</loc>
