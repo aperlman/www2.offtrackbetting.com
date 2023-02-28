@@ -1,3 +1,6 @@
-# serve font files from www.offtrackbetting.com
+# serve font files to www.offtrackbetting.com
 /fonts/*
+  Access-Control-Allow-Origin: https://www.offtrackbetting.com
+# server embedded html to www.offtrackbetting.com
+/embed/*
   Access-Control-Allow-Origin: https://www.offtrackbetting.com
