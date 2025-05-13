@@ -313,7 +313,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2022-05-17.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.79</priority>
+    <priority>0.78</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2023-08-31.htm</loc>
@@ -438,7 +438,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2019-12-27.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.58</priority>
+    <priority>0.57</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2020-05-08.htm</loc>
@@ -1798,7 +1798,7 @@
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2017-03-10.htm</loc>
     <changefreq>never</changefreq>
-    <priority>0.43</priority>
+    <priority>0.42</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2014-09-04.htm</loc>
@@ -1839,6 +1839,11 @@
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2013-10-25.htm</loc>
     <changefreq>never</changefreq>
     <priority>0.14</priority>
+  </url>
+  <url>
+    <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2025-05-14.htm</loc>
+    <changefreq>never</changefreq>
+    <priority>0.98</priority>
   </url>
   <url>
     <loc>https://www3.offtrackbetting.com/newsletter/newsletter_2014-10-27.htm</loc>
